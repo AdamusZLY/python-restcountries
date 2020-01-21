@@ -11,10 +11,10 @@ setup(
     author_email='robert@blueshoe.de',
     url='https://github.com/SteinRobert/python-restcountries',
     download_url='https://github.com/SteinRobert/python-restcountries/tarball/{}'.format(__version__),
-    packages=['requests',],
     description='Python API Wrapper for restcountries.eu',
     license='Unlicense',
     keywords=['api', 'wrapper', 'country', 'countries'],
+    packages=find_packages(),
     install_requires=['requests'],
     long_description=open('README.rst').read(),
     classifiers = ["Programming Language :: Python :: 3 :: Only"]
